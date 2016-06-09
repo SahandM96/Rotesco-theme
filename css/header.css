@@ -1,0 +1,134 @@
+header{
+  position: relative;
+  display: block;
+  height: 195px;
+  margin: 0;
+  width: 100%;
+  height: 46px;
+  margin-bottom: 15px;
+}
+
+.nav {
+  width: 100%;
+  height: 46px;
+  margin: 0;
+  display: block;
+}
+.nav ul {
+
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+    float: left;
+}
+
+.nav  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+.nav  a:hover {
+    background-color:darkred;
+}
+.nav li ul {
+  display: none;
+   z-index: 999;
+   position: relative;
+}
+ .nav ul li:hover > ul {
+   display: block;
+}
+ .nav ul:after {
+   content: "";
+   clear: both;
+   display: block;
+   z-index: 999;
+}
+ .nav ul li {
+   float: right;
+}
+ .nav ul li:hover {
+   z-index: 999;
+   background: #333;
+}
+ .nav ul li li:hover a {
+   background-color: darkred;
+   color: #fff;
+}
+ .nav ul li a {
+   display: block;
+   padding: 25px 40px
+   color: #fff;
+   text-decoration: none;
+}
+ .nav ul ul {
+   position: relative;
+   z-index: 999;
+   background: #333;
+   border-radius: 0px;
+   padding: 0;
+   position: absolute;
+   top: 100%;
+}
+ .nav ul ul li {
+   z-index: 999;
+   float: none;
+   /*border-top: 1px solid #404040;*/
+   /*border-bottom: 1px solid #484848;*/
+   position: relative;
+}
+ .nav ul ul li a {
+   padding: 15px 40px;
+   color: #fff;
+}
+ .nav ul ul li a:hover {
+   background: darkred;
+}
+ .nav ul ul ul {
+   z-index: 999;
+   position: absolute;
+   right: 100%;
+   top: 0;
+}
+.blockquote_header{
+  width: 960px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 130px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+.blockquote_header img{
+  height: 80px;
+  width: 80px;
+  border-radius: 2px;
+  background-image: url(logo.jpg);
+}
+.blockquote_header h1{
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: right;
+  list-style: none;
+}
+.blockquote_header a{
+  color: #808080;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: right;
+  list-style: none;
+}
+.description{
+  color: #fff;
+}

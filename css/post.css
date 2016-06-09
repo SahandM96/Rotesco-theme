@@ -1,0 +1,24 @@
+.Main-Page-Theme{
+  padding-left: 20%;
+  padding-right: 20%;
+  height: auto;
+  width: auto;
+  margin: 0;
+  background-color: #fff;
+}
+.Main-Page-Theme h2{
+  text-align: center;
+  color: #3465;
+}
+.post_Box{
+  display: block;
+  position: relative;
+  margin-left: 13;
+  padding-right: 13;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.post_Box h2{
+  font-weight: bolder;
+  color: #666;
+}

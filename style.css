@@ -1,0 +1,267 @@
+/*
+Theme Name: Rotes-Design-Group Theme
+Theme URI: http://sahandmirzaee.com
+Description: This is a Rotes-Design-Group Theme starter WordPress Theme Designed By SahandM96
+Author: SahandM96
+Author URI: http://sahandmirzaee.com
+Version: 0.1
+*/
+@import "css/footer.css";
+@import "css/header.css";
+@media screen {
+
+* { margin: 0; padding: 0; }
+body { background: white; font: 14px/1.4 Georgia, Serif; }
+.screen-reader-text { position: absolute; left: -9999px; top: -9999px; }
+.clear { clear: both; }
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+* html .group, *:first-child+html .group { zoom: 1; } /* First selector = IE6, Second Selector = IE 7 */
+
+#page-wrap { width: 960px;
+  margin-top: 130px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+ }
+
+h1, h2, h3 { font-weight: normal; margin: 0 0 10px 0; }
+h1 { }
+h2 { }
+h3 { }
+
+p { margin: 0 0 10px 0; }
+a { }
+a:hover { }
+
+blockquote { }
+blockquote p { }
+
+ul, ol { margin: 0 0 10px 0; }
+
+.post { }
+
+.entry { }
+.entry a { }
+.entry a:hover { }
+
+pre { }
+code, tt { }
+
+#meta { }
+.postmetadata { }
+
+#sidebar { }
+
+.navgation { }
+   .next-posts { }
+   .prev-posts { }
+
+#searchform { }
+	#s { }
+	#searchsubmt { }
+
+ol.commentlist { list-style: none; }
+ol.commentlist li { }
+ol.commentlist li.alt { }
+ol.commentlist li.bypostauthor { }
+ol.commentlist li.byuser { }
+ol.commentlist li.comment-author-admin { }
+ol.commentlist li.comment { border-bottom: 1px dotted #666; padding: 10px; }
+ol.commentlist li.comment div.comment-author { }
+ol.commentlist li.comment div.vcard { }
+ol.commentlist li.comment div.vcard cite.fn { font-style: normal; }
+ol.commentlist li.comment div.vcard cite.fn a.url { }
+ol.commentlist li.comment div.vcard img.avatar { float:right; margin: 0 0 10px 10px; }
+ol.commentlist li.comment div.vcard img.avatar-32 { }
+ol.commentlist li.comment div.vcard img.photo { }
+ol.commentlist li.comment div.vcard span.says { }
+ol.commentlist li.comment div.commentmetadata { }
+ol.commentlist li.comment div.comment-meta { font-size: 10px; }
+ol.commentlist li.comment div.comment-meta a { color: #ccc; }
+ol.commentlist li.comment p { }
+ol.commentlist li.comment ul { }
+ol.commentlist li.comment div.reply { font-size: 11px; }
+ol.commentlist li.comment div.reply a { font-weight: bold; }
+ol.commentlist li.comment ul.children { list-style: none; margin: 10px 0 0; }
+ol.commentlist li.comment ul.children li { }
+ol.commentlist li.comment ul.children li.alt { }
+ol.commentlist li.comment ul.children li.bypostauthor { }
+ol.commentlist li.comment ul.children li.byuser { }
+ol.commentlist li.comment ul.children li.comment { }
+ol.commentlist li.comment ul.children li.comment-author-admin { }
+ol.commentlist li.comment ul.children li.depth-2 { border-left: 5px solid #555; margin: 0 0 10px 10px; }
+ol.commentlist li.comment ul.children li.depth-3 { border-left: 5px solid #999; margin: 0 0 10px 10px; }
+ol.commentlist li.comment ul.children li.depth-4 { border-left: 5px solid #bbb; margin: 0 0 10px 10px; }
+ol.commentlist li.comment ul.children li.depth-5 { }
+ol.commentlist li.comment ul.children li.odd { }
+ol.commentlist li.even { background: #fff; }
+ol.commentlist li.odd { background: #f6f6f6; }
+ol.commentlist li.parent { border-left: 5px solid #111; }
+ol.commentlist li.thread-alt { }
+ol.commentlist li.thread-even { }
+ol.commentlist li.thread-odd { }
+
+form { }
+input[type=text] { }
+textarea { }
+
+} /* END screen media */
+
+@media print {
+
+.do-not-print { display: none; }
+#comments { page-break-before: always; }
+
+body { width: 100% !important; margin: 0 !important; padding: 0 !important; line-height: 1.4; word-spacing: 1.1pt; letter-spacing: 0.2pt; font-family: Garamond,"Times New Roman", serif; color: #000; background: none; font-size: 12pt; }
+h1,h2,h3,h4,h5,h6 { font-family: Helvetica, Arial, sans-serif; }
+h1 { font-size: 19pt; }
+h2 { font-size:17pt; }
+h3 { font-size:15pt; }
+h4,h5,h6 { font-size:12pt; }
+code { font: 10pt Courier, monospace; }
+blockquote { margin: 1.3em; padding: 1em; }
+img { display: block; margin: 1em 0; }
+a img { border: none; }
+table { margin: 1px; text-align:left; }
+th { border-bottom: 1px solid #333;  font-weight: bold; }
+td { border-bottom: 1px solid #333; }
+th, td { padding: 4px 10px 4px 0; }
+caption { background: #fff; margin-bottom: 2em; text-align: left; }
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; }
+a { text-decoration: none; color: black; }
+
+} /* END print media */
+body,header,nav,#ab-box,.Slide-show,footer{
+  display: block;
+}
+body{
+  margin: 0;
+  height: 1195px;
+  background-image: url("images/Back.jpg");
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 15px;
+}
+
+
+
+#menu-short{
+  display: block;
+  position: relative;
+}
+.menu-short-images{
+  align-items: center;
+  height: 250px;
+  width: 280px;
+  display: inline-block;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.Slide-show{
+  position: relative;
+  height: 450px;
+  width: 100%;
+  display: block;
+  padding-bottom: 18px;
+
+}
+.Slide-show img{
+  height: 450px;
+  width: 100%;
+  image-resolution:snap;
+}
+.Home_Title{
+  background-image: url('images/mnu.png');
+  position: relative;
+  display: block;
+  height: 20px;
+  margin: 0;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  font-weight: 300;
+  background-size:contain;
+  background-repeat: no-repeat;
+
+}
+.Home-Box_Link a{
+  color: #fff;
+
+  text-decoration: none;
+
+}
+.Home-Boxs{
+  display: table;
+  position: relative;
+  background-color: #fff;
+  height: auto;
+  width: 100%;
+  margin-bottom: 15px;
+  padding-top:10px;
+  padding-bottom:10px;
+  align-self: center;
+}
+.Home-Box{
+  display: block;
+  padding-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  min-height: 200px;
+  background:#FFFFFF;
+  background-size: cover;
+  display:inline-block;
+  height: auto;
+  width: 300px;
+  float:left;
+}
+.Home-Box_Link{
+  position: static;
+  font-weight: 700;
+  padding-top: 10px;
+	margin-left:25px;
+  margin-right:25px;
+	height:46.667px;
+	width:194px;
+	border-radius:2px;
+	background:#252122;
+	color:#FFFFFF;
+	text-align:center;
+  margin-bottom: 0;
+}
+
+.Home-Box img {
+  background-color: darkred;
+	height:120px;
+	width:280px;
+	background-size:cover;
+}
+.Main-Page-Theme{
+  padding-left: 20%;
+  padding-right: 20%;
+  height: auto;
+  width: auto;
+  margin: 0;
+  background-color: #fff;
+}
+.Main-Page-Theme h2{
+  text-align: center;
+  color: #3465;
+}
+.post_Box{
+  display: block;
+  position: relative;
+  margin-left: 13px;
+  margin-right: 13px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+.post_Box h2{
+  font-weight: bolder;
+  color: #666;
+}
